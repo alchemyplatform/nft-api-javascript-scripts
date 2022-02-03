@@ -1,2 +1,3 @@
-# nft-api-javascript-scripts
+# NFT API Javascript Scripts
+
 A collection of Javascript scripts
