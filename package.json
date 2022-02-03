@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@alch/alchemy-web3": "^1.1.12"
+    "@alch/alchemy-web3": "^1.1.12",
+    "node-fetch": "^3.2.0"
   }
 }
