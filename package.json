@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "@alch/alchemy-web3": "^1.1.12",
+    "axios": "^0.25.0",
     "node-fetch": "^3.2.0"
   }
 }
