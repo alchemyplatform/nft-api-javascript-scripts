@@ -6,7 +6,7 @@ const apiKey = "demo";
 
 // Initialize an alchemy-web3 instance:
 const web3 = createAlchemyWeb3(
-  `https://eth-mainnet.g.alchemy.com/v2/${apiKey}`,
+  `https://eth-mainnet.alchemyapi.io/v2/${apiKey}`,
 );
 
 // The wallet address we want to query for NFTs:
