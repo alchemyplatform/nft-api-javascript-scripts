@@ -1,8 +1,11 @@
+// This script demonstrates access to the NFT API via the Alchemy SDK.
 import {
   Network,
   initializeAlchemy,
   getNftsForOwner,
   getNftMetadata,
+  BaseNft,
+  NftTokenType,
 } from "@alch/alchemy-sdk";
 
 // Optional Config object, but defaults to demo api-key and eth-mainnet.
