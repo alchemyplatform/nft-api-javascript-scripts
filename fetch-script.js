@@ -11,7 +11,7 @@ var requestOptions = {
 const apiKey = "demo";
 const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}/getNFTs/`;
 // Replace with the wallet address you want to query:
-const ownerAddr = "0xF5FFF32CF83A1A614e15F25Ce55B0c0A6b5F8F2c";
+const ownerAddr = "0x8D53485cE4bf6dbAcbC4eD9e1CE3c88649423450";
 const fetchURL = `${baseURL}?owner=${ownerAddr}`;
 
 // Make the request and print the formatted response:
