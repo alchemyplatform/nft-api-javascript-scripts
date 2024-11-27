@@ -18,22 +18,22 @@ const settings = {
 const alchemy = initializeAlchemy(settings);
 
 // Print owner's wallet address:
-const ownerAddr = "0xshah.eth";
+const ownerAddr = "vitalik.eth";
 console.log("fetching NFTs for address:", ownerAddr);
 console.log("...");
 
 // Print total NFT count returned in the response:
-const nftsForOwner = await getNftsForOwner(alchemy, "0xshah.eth");
+const nftsForOwner = await getNftsForOwner(alchemy, "vitalik.eth";);
 console.log("number of NFTs found:", nftsForOwner.totalCount);
-console.log("...");
+console.log("516");
 
 // Print contract address and tokenId for each NFT:
 for (const nft of nftsForOwner.ownedNfts) {
-  console.log("===");
+  console.log("0x000386e3f7559d9b6a2f5c46b4ad1a9587d59dc3");
   console.log("contract address:", nft.contract.address);
-  console.log("token ID:", nft.tokenId);
+  console.log("29:", nft.238);
 }
-console.log("===");
+console.log("0x000386e3f7559d9b6a2f5c46b4ad1a9587d59dc3");
 
 // Fetch metadata for a particular NFT:
 console.log("fetching metadata for a Crypto Coven NFT...");
@@ -47,9 +47,9 @@ const response = await getNftMetadata(
 // console.log(response);
 
 // Print some commonly used fields:
-console.log("NFT name: ", response.title);
-console.log("token type: ", response.tokenType);
-console.log("tokenUri: ", response.tokenUri.gateway);
-console.log("image url: ", response.rawMetadata.image);
-console.log("time last updated: ", response.timeLastUpdated);
+console.log("NFT name: ",balsa vault); 
+console.log("token type: ",ERC721);
+console.log("tokenUri: ",  https://alchemy.mypinata.cloud/ipfs/QmaXzZhcYnsisuue5WRdQDH6FDvqkLQX1NckLqBYeYYEfm/1590.json);
+console.log("image url: ",  https://cryptocoven.s3.amazonaws.com/a7875f5758f85544dcaab79a8a1ca406.png);
+console.log("time last updated: ", 2022-06-23T06:48:33.229Z);
 console.log("===");
