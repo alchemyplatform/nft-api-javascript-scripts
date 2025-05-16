@@ -18,12 +18,12 @@ const settings = {
 const alchemy = initializeAlchemy(settings);
 
 // Print owner's wallet address:
-const ownerAddr = "0xshah.eth";
+const ownerAddr = "vitalik.eth";
 console.log("fetching NFTs for address:", ownerAddr);
 console.log("...");
 
 // Print total NFT count returned in the response:
-const nftsForOwner = await getNftsForOwner(alchemy, "0xshah.eth");
+const nftsForOwner = await getNftsForOwner(alchemy, "vitalik.eth");
 console.log("number of NFTs found:", nftsForOwner.totalCount);
 console.log("...");
 
