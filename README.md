@@ -14,10 +14,10 @@ git clone git@github.com:alchemyplatform/nft-api-javascript-scripts.git
 npm install
 ```
 
-3. Use `alchemy-web3` javascript sdk
+3. Use `alchemy-sdk` javascript sdk
 
 ```
-node alchemy-web3-script.js
+node alchemy-sdk-script.js
 ```
 
 4. Use `fetch` javascript module
@@ -35,4 +35,3 @@ node axios-script.js
 6. Read docs for more info
 
 https://docs.alchemy.com/alchemy/enhanced-apis/nft-api
-
