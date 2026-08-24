@@ -13,7 +13,7 @@
   "dependencies": {
     "@alch/alchemy-sdk": "^1.0.4",
     "@alch/alchemy-web3": "^1.1.12",
-    "axios": "^0.25.0",
-    "node-fetch": "^3.2.0"
+    "axios": "0.32.0",
+    "node-fetch": "3.2.10"
   }
 }
